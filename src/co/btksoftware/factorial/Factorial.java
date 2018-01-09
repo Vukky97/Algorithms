@@ -1,11 +1,11 @@
-package factorial;
+package co.btksoftware.factorial;
 
 import java.util.Scanner;
 
 public class Factorial {
 
     public static void main(String[] args) {
-        System.out.print("Calculate factorial of: ");
+        System.out.print("Calculate co.btksoftware.factorial of: ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int fact = Fact(number);
