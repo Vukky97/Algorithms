@@ -11,3 +11,5 @@ out/production/Algorithms/co/btksoftware/fibonacci/Fibonacci.class
 out/production/Algorithms/co/btksoftware/Main.class
 out/production/Algorithms/co/btksoftware/towers_of_hanoi/TowersOfHanoi.class
 out/production/Algorithms/co/btksoftware/factorial/Factorial.class
+.idea/inspectionProfiles/Project_Default.xml
+*.class
