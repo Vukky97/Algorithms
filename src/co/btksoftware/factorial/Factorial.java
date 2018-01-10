@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Factorial {
 
     public static void main(String[] args) {
-        System.out.print("Calculate co.btksoftware.factorial of: ");
+        System.out.print("Calculate the factorial of: ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int fact = Fact(number);
