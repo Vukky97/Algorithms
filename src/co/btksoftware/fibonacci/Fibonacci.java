@@ -8,13 +8,13 @@ public class Fibonacci {
         System.out.print("Length of Fibonacci sequence: ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        int fib = Fib(number);
+        int fib = Fibo(number);
         System.out.println("Result: " + fib);
     }
 
-    private static int Fib(int n) {
+    private static int Fibo(int n) {
         if (n > 1) {
-            return Fib(n - 1) + Fib(n - 2);
+            return Fibo(n - 1) + Fibo(n - 2);
         } else {
             return n;
         }
